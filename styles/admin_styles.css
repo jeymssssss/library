@@ -1,0 +1,41 @@
+:root {
+  --color-primary: #2C3E50;
+  --color-secondary: #A3B18A;
+  --color-accent: #F4A261;
+  --color-bg: #FDF6EC;
+  --color-surface: #E9ECEF;
+  --color-text: #2D2D2D;
+  --color-text-light: #FFFFFF;
+  --color-muted: #B0BEC5;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-muted);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.button-accent {
+  background-color: var(--color-accent);
+  color: var(--color-text-light);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-accent:hover {
+  background-color: #e07b36;
+}
